@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <!--css eksternal-->
+    <link rel="stylesheet" href="styling.css">
+
+    <!--css internal-->
+    <!--cara stylingnya langsung panggil nama tagnya-->
+    <style>
+        *{height: 100%;}
+
+        body {
+            background-color:rgb(255, 0, 115);
+            display: flex;
+            flex-direction: column;}
+
+        header{
+            flex: 2;
+            font-size: xx-large; 
+            background-color:yellowgreen;
+            display: flex;}
+      
+        main{
+            background-color:blue;
+            font-style: inherit;
+            font-size: x-large;
+            display: flex;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            height: 80vp;}
+
+        section{
+            background-color:peachpuff;
+            display: flex;}
+
+        aside{
+            background-color:aqua;
+            font-size: 36pt;
+            display: flex;
+            width: 20%;}
+        
+        footer{
+           font-size: x-large;
+           background-color:peachpuff;}
+      
+        article{width: 100%;}
+    </style>
+</head>
+
+<body>
+   <header>HEADER</header>
+   <main>
+        <aside>sidebar</aside>
+        <section>
+            <article>bagian 1</article>
+            <article>bagian 2</article>
+        </section>
+   </main>
+   <footer>footer</footer>
+</body>
+</html>
